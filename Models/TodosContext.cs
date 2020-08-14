@@ -18,7 +18,7 @@ namespace TodoAlek.Models
                 entity.HasKey(e => e.Id)
                     .HasName("PK__Products__B40CC6CDFEF2D15E");
 
-                entity.Property(e => e.TimeExpire).HasColumnType("dattime");
+                entity.Property(e => e.TimeExpire).HasColumnType("datetime");
 
                 entity.Property(e => e.TitleJob).HasColumnType("varchar(max)");
 
